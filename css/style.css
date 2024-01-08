@@ -4,7 +4,9 @@
 }
 
 /* common shared style  */
-
+section{
+    margin-bottom: 130px;
+}
 
 /* banner section start  */
 .banner {
@@ -42,4 +44,41 @@
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
+}
+
+/* main section start  */
+/* discount section start  */
+.discount-container {
+    text-align: center;
+}
+
+.discount-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.discount-deals {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.discount-categorie {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.discount-image {
+    width: 802.9px;
+    height: 500px;
 }
