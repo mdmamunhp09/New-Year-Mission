@@ -4,7 +4,7 @@
 }
 
 /* common shared style  */
-section{
+section {
     margin-bottom: 130px;
 }
 
@@ -185,13 +185,15 @@ section{
     height: 882px;
     display: flex;
     margin: auto;
+    gap:50px;
     align-items: center;
 }
 
-.best-offer-column{
-    margin-right: 130px;
+.best-offer-column {
+    margin-right: 100px;
     width: 33%;
 }
+
 .comming-title {
     color: #070211;
     font-family: Merriweather;
@@ -207,7 +209,7 @@ section{
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-    
+
 }
 
 .offer-image {
@@ -328,7 +330,7 @@ label input {
     border-radius: 50px 0px 0px 50px;
 }
 
-button {
+label>button {
     position: absolute;
     border: none;
     border-radius: 0px 50px 50px 0px;
@@ -342,4 +344,50 @@ button {
     width: 150px;
     padding: 15px;
 
+}
+
+/* footer section start  */
+footer {
+    background-color: #070211;
+    color: #FFF;
+    padding: 120px 140px;
+    margin-top: 130px;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.footer>p {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+footer>hr {
+    border:0.5px solid rgba(255, 255, 255, 0.316);
+    
+}
+
+.social-link {
+    text-align: center;
+}
+
+.social-link img {
+    width: 64px;
+    height: 64px;
+    margin: 50px 24px 50px 0px;
+}
+
+.third-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+i{
+    margin-right: 5px;
 }
